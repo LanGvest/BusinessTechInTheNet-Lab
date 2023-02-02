@@ -1,4 +1,4 @@
-type AllowedCountries = "Россия" | "Япония" | "Франция" | "Беларусь" | "Китай" | "Англия";
+type AllowedCountries = "Россия" | "США" | "Япония" | "Франция" | "Беларусь" | "Китай" | "Англия";
 
 type CountryFlagUrls = {
 	[countryName in AllowedCountries]: string
@@ -10,7 +10,8 @@ const countryFlagUrls: CountryFlagUrls = {
 	"Китай": "https://flagicons.lipis.dev/flags/4x3/cn.svg",
 	"Россия": "https://flagicons.lipis.dev/flags/4x3/ru.svg",
 	"Франция": "https://flagicons.lipis.dev/flags/4x3/fr.svg",
-	"Япония": "https://flagicons.lipis.dev/flags/4x3/jp.svg"
+	"Япония": "https://flagicons.lipis.dev/flags/4x3/jp.svg",
+	"США": "https://flagicons.lipis.dev/flags/4x3/us.svg"
 };
 
 export function getCountryFlagUrl(countryName: string): string | null {
