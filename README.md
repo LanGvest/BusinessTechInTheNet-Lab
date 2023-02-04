@@ -1,4 +1,4 @@
-# Business tech in the Net lab
+# Business Tech In The Net Lab
 
 ## Task (option 4)
 
